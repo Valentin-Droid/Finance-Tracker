@@ -21,6 +21,3 @@ Finance Tracker est une application mobile de gestion de finances personnelles. 
 - Exportation de données en CSV ou PDF
 - Fonctionnalités de prévisions et de budgetisation
 - Notifications pour rappeler les paiements et les échéances
-
-## Images 📷
-![(./Users/valentin/Library/Mobile Documents/com~apple~CloudDocs/Developpement/Swift/FinanceTracker/1.png)

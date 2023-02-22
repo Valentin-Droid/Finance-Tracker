@@ -8,17 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		A721652F296EFE64001DA7A1 /* FinanceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721652E296EFE64001DA7A1 /* FinanceTrackerApp.swift */; };
-		A7216531296EFE64001DA7A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7216530296EFE64001DA7A1 /* ContentView.swift */; };
+		A7216531296EFE64001DA7A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7216530296EFE64001DA7A1 /* HomeView.swift */; };
 		A7216533296EFE65001DA7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7216532296EFE65001DA7A1 /* Assets.xcassets */; };
 		A7216536296EFE65001DA7A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7216535296EFE65001DA7A1 /* Preview Assets.xcassets */; };
+		A721653D297007F5001DA7A1 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721653C297007F5001DA7A1 /* AccountCell.swift */; };
+		A721653F29701426001DA7A1 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721653E29701426001DA7A1 /* Account.swift */; };
+		A7216541297041E8001DA7A1 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7216540297041E8001DA7A1 /* PreviewData.swift */; };
+		A721654329719B8E001DA7A1 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721654229719B8E001DA7A1 /* Currency.swift */; };
+		A72165452971AD41001DA7A1 /* CurrencySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72165442971AD41001DA7A1 /* CurrencySelector.swift */; };
+		A721654729741626001DA7A1 /* AccountCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721654629741626001DA7A1 /* AccountCreationView.swift */; };
+		A7216549297548A6001DA7A1 /* IconSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7216548297548A6001DA7A1 /* IconSelector.swift */; };
+		A721654B29755E10001DA7A1 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721654A29755E10001DA7A1 /* MainButton.swift */; };
+		A721654D29756056001DA7A1 /* AccentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721654C29756056001DA7A1 /* AccentButton.swift */; };
+		A721654F29758496001DA7A1 /* AccountsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721654E29758496001DA7A1 /* AccountsList.swift */; };
+		A756718A29758F3300199C2C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756718929758F3300199C2C /* Transaction.swift */; };
+		A756718C29758F8400199C2C /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A756718B29758F8400199C2C /* TransactionCell.swift */; };
+		A7FC8BD32976CF3B00EE47EE /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC8BD22976CF3B00EE47EE /* AccountDetailView.swift */; };
+		A7FC8BD52977DE7400EE47EE /* AccountSelectorMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC8BD42977DE7400EE47EE /* AccountSelectorMenu.swift */; };
+		A7FC8BD729782D3600EE47EE /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FC8BD629782D3600EE47EE /* NewTransactionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A721652B296EFE64001DA7A1 /* FinanceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A721652E296EFE64001DA7A1 /* FinanceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTrackerApp.swift; sourceTree = "<group>"; };
-		A7216530296EFE64001DA7A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7216530296EFE64001DA7A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A7216532296EFE65001DA7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7216535296EFE65001DA7A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A721653C297007F5001DA7A1 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		A721653E29701426001DA7A1 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		A7216540297041E8001DA7A1 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		A721654229719B8E001DA7A1 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		A72165442971AD41001DA7A1 /* CurrencySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySelector.swift; sourceTree = "<group>"; };
+		A721654629741626001DA7A1 /* AccountCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationView.swift; sourceTree = "<group>"; };
+		A7216548297548A6001DA7A1 /* IconSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSelector.swift; sourceTree = "<group>"; };
+		A721654A29755E10001DA7A1 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		A721654C29756056001DA7A1 /* AccentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentButton.swift; sourceTree = "<group>"; };
+		A721654E29758496001DA7A1 /* AccountsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsList.swift; sourceTree = "<group>"; };
+		A756718929758F3300199C2C /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A756718B29758F8400199C2C /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		A7FC8BD22976CF3B00EE47EE /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		A7FC8BD42977DE7400EE47EE /* AccountSelectorMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSelectorMenu.swift; sourceTree = "<group>"; };
+		A7FC8BD629782D3600EE47EE /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +82,24 @@
 			isa = PBXGroup;
 			children = (
 				A721652E296EFE64001DA7A1 /* FinanceTrackerApp.swift */,
-				A7216530296EFE64001DA7A1 /* ContentView.swift */,
+				A7216530296EFE64001DA7A1 /* HomeView.swift */,
+				A721653C297007F5001DA7A1 /* AccountCell.swift */,
+				A721653E29701426001DA7A1 /* Account.swift */,
+				A7216540297041E8001DA7A1 /* PreviewData.swift */,
 				A7216532296EFE65001DA7A1 /* Assets.xcassets */,
 				A7216534296EFE65001DA7A1 /* Preview Content */,
+				A721654229719B8E001DA7A1 /* Currency.swift */,
+				A72165442971AD41001DA7A1 /* CurrencySelector.swift */,
+				A721654629741626001DA7A1 /* AccountCreationView.swift */,
+				A7216548297548A6001DA7A1 /* IconSelector.swift */,
+				A721654A29755E10001DA7A1 /* MainButton.swift */,
+				A721654C29756056001DA7A1 /* AccentButton.swift */,
+				A721654E29758496001DA7A1 /* AccountsList.swift */,
+				A756718929758F3300199C2C /* Transaction.swift */,
+				A756718B29758F8400199C2C /* TransactionCell.swift */,
+				A7FC8BD22976CF3B00EE47EE /* AccountDetailView.swift */,
+				A7FC8BD42977DE7400EE47EE /* AccountSelectorMenu.swift */,
+				A7FC8BD629782D3600EE47EE /* NewTransactionView.swift */,
 			);
 			path = FinanceTracker;
 			sourceTree = "<group>";
@@ -137,8 +182,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7216531296EFE64001DA7A1 /* ContentView.swift in Sources */,
+				A756718C29758F8400199C2C /* TransactionCell.swift in Sources */,
+				A721654329719B8E001DA7A1 /* Currency.swift in Sources */,
+				A721654729741626001DA7A1 /* AccountCreationView.swift in Sources */,
+				A7FC8BD32976CF3B00EE47EE /* AccountDetailView.swift in Sources */,
+				A7216541297041E8001DA7A1 /* PreviewData.swift in Sources */,
+				A7216531296EFE64001DA7A1 /* HomeView.swift in Sources */,
+				A721654B29755E10001DA7A1 /* MainButton.swift in Sources */,
+				A7FC8BD52977DE7400EE47EE /* AccountSelectorMenu.swift in Sources */,
+				A756718A29758F3300199C2C /* Transaction.swift in Sources */,
+				A721654F29758496001DA7A1 /* AccountsList.swift in Sources */,
+				A72165452971AD41001DA7A1 /* CurrencySelector.swift in Sources */,
+				A721653F29701426001DA7A1 /* Account.swift in Sources */,
+				A721654D29756056001DA7A1 /* AccentButton.swift in Sources */,
+				A7FC8BD729782D3600EE47EE /* NewTransactionView.swift in Sources */,
 				A721652F296EFE64001DA7A1 /* FinanceTrackerApp.swift in Sources */,
+				A721653D297007F5001DA7A1 /* AccountCell.swift in Sources */,
+				A7216549297548A6001DA7A1 /* IconSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +209,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -209,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -252,6 +314,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
